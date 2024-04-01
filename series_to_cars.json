@@ -1,0 +1,5 @@
+{
+    "NASCAR Next Gen" : {"class" : "oval", "img": "images/ng.png", "dirs": "stockcars chevycamarozl12022|stockcars fordmustang2022|stockcars toyotacamry2022"},
+    "NASCAR XFinity" : {"class" : "oval", "img": "images/xfinity.png", "dirs": "stockcars2 camaro2019|stockcars2 mustang2019|stockcars2 supra2019"},     
+    "NASCAR Trucks": {"class" : "oval", "img": "images/trucks.png", "dirs": "trucks fordf150|trucks silverado2019|trucks toyotatundra2022"}
+}

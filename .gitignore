@@ -1,0 +1,4 @@
+.venv/
+build/
+dist/
+iracing_handy_helper.code-workspace

@@ -1,0 +1,24 @@
+Make the following changes:
+#1 Page one - change to Select your series look. 
+    if #2 field is "", disable series buttons
+#2 Page one - make a iracing setup base directory field and folder chooser.
+    (on load, fill with contents of setup_dir.txt if available)
+    If field is empty, disable series buttons
+    on next, save to setup_dir.txt
+
+#3 Page two (optional)
+    (show if series car count is > 1)
+    Look --
+    "You have chosen a series with multiple cars. The setups you choose will be copied to all applicable cars in the series!"
+    Custom sub-directory 
+    Set button
+
+    Logic --
+    On custom sub dir click, open folder selector widget to setup_dir.txt contents + ANY applicable car folder ("stockcars chevycamarozl12022")
+    Allow user to add custom dirs and select dir in widget
+    use get_extra_dirs(STRING setup) to get get_extra_dirs
+    remove extra_dirs warning Page
+    
+    Perform copy with extra_dirs and Send user to confirmation page
+
+
